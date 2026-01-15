@@ -40,11 +40,3 @@ export interface Transition {
   duration: number;
   easing: string;
 }
-
-// 执行步骤（用于时间轴）
-export interface ExecutionStep {
-  stepNumber: number;
-  data: any;
-  description: string;
-  timestamp: number;
-}
